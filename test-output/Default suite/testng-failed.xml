@@ -5,9 +5,16 @@
     <classes>
       <class name="com.whatslly.rest.api.testing_project.PositiveStatusCodeTests">
         <methods>
+          <include name="loadPropertiesFiles"/>
           <include name="testAllEndpointsRespond"/>
         </methods>
       </class> <!-- com.whatslly.rest.api.testing_project.PositiveStatusCodeTests -->
+      <class name="com.whatslly.rest.api.testing_project.AllEndpointsOutputTheSameValues">
+        <methods>
+          <include name="ValidateTheSameValuesInAllEndpoints"/>
+          <include name="initilaizeResponse"/>
+        </methods>
+      </class> <!-- com.whatslly.rest.api.testing_project.AllEndpointsOutputTheSameValues -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
