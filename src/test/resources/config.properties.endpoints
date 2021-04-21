@@ -1,1 +1,3 @@
 endpoints=us1,eu1,br1
+
+endpointsNotExist=us2,eu2,br2

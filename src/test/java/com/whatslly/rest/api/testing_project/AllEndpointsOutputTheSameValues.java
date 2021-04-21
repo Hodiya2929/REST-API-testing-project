@@ -26,7 +26,7 @@ public class AllEndpointsOutputTheSameValues extends AbstractTest {
 	}
 
 
-	@Test(dataProvider = "create", dataProviderClass = DataProviders.class)
+	@Test(dataProvider = "allValidEndpoints", dataProviderClass = DataProviders.class)
 	public void ValidateTheSameValuesInAllEndpoints(String endpoint) throws Exception
 	{
 		String url = initializeEndpoint(endpoint);

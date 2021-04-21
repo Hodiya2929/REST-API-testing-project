@@ -35,7 +35,7 @@ public class PositiveStatusCodeTests extends AbstractTest {
 	 */
 
 	
-	@Test(dataProvider = "create", dataProviderClass = DataProviders.class)
+	@Test(dataProvider = "allValidEndpoints", dataProviderClass = DataProviders.class)
 	public void testAllEndpointsRespond(String endpoint)
 	{
 		String url = initializeEndpoint(endpoint);

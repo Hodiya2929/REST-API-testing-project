@@ -3,18 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.whatslly.rest.api.testing_project.PositiveStatusCodeTests">
+      <class name="com.whatslly.rest.api.testing_project.NegativeTestWrongEndpoint">
         <methods>
-          <include name="loadPropertiesFiles"/>
-          <include name="testAllEndpointsRespond"/>
+          <include name="verifyWrongEndpointStatusCode" invocation-numbers="0 1 2"/>
         </methods>
-      </class> <!-- com.whatslly.rest.api.testing_project.PositiveStatusCodeTests -->
-      <class name="com.whatslly.rest.api.testing_project.AllEndpointsOutputTheSameValues">
-        <methods>
-          <include name="ValidateTheSameValuesInAllEndpoints"/>
-          <include name="initilaizeResponse"/>
-        </methods>
-      </class> <!-- com.whatslly.rest.api.testing_project.AllEndpointsOutputTheSameValues -->
+      </class> <!-- com.whatslly.rest.api.testing_project.NegativeTestWrongEndpoint -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
