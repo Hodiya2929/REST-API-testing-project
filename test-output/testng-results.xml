@@ -1,17 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-04-21T01:39:30 IDT" name="Suite" finished-at="2021-04-21T01:39:47 IDT" duration-ms="17091">
+  <suite started-at="2021-04-21T12:28:10 IDT" name="Suite" finished-at="2021-04-21T12:28:29 IDT" duration-ms="19174">
     <groups>
     </groups>
-    <test started-at="2021-04-21T01:39:30 IDT" name="StatusCode" finished-at="2021-04-21T01:39:47 IDT" duration-ms="17091">
+    <test started-at="2021-04-21T12:28:10 IDT" name="StatusCode" finished-at="2021-04-21T12:28:29 IDT" duration-ms="19174">
+      <class name="com.whatslly.rest.api.testing_project.NegativeTestWrongEndpoint">
+        <test-method signature="verifyWrongEndpointStatusCode(java.lang.String)[pri:0, instance:com.whatslly.rest.api.testing_project.NegativeTestWrongEndpoint@31d7b7bf]" started-at="2021-04-21T12:28:23 IDT" name="verifyWrongEndpointStatusCode" data-provider="unvalidEndpoints" finished-at="2021-04-21T12:28:25 IDT" duration-ms="2092" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[us2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWrongEndpointStatusCode -->
+        <test-method signature="verifyWrongEndpointStatusCode(java.lang.String)[pri:0, instance:com.whatslly.rest.api.testing_project.NegativeTestWrongEndpoint@31d7b7bf]" started-at="2021-04-21T12:28:25 IDT" name="verifyWrongEndpointStatusCode" data-provider="unvalidEndpoints" finished-at="2021-04-21T12:28:27 IDT" duration-ms="2099" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eu2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWrongEndpointStatusCode -->
+        <test-method signature="verifyWrongEndpointStatusCode(java.lang.String)[pri:0, instance:com.whatslly.rest.api.testing_project.NegativeTestWrongEndpoint@31d7b7bf]" started-at="2021-04-21T12:28:27 IDT" name="verifyWrongEndpointStatusCode" data-provider="unvalidEndpoints" finished-at="2021-04-21T12:28:29 IDT" duration-ms="2099" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[br2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWrongEndpointStatusCode -->
+      </class> <!-- com.whatslly.rest.api.testing_project.NegativeTestWrongEndpoint -->
       <class name="com.whatslly.rest.api.testing_project.PositiveStatusCodeTests">
-        <test-method is-config="true" signature="loadPropertiesFiles()[pri:0, instance:com.whatslly.rest.api.testing_project.PositiveStatusCodeTests@10e41621]" started-at="2021-04-21T01:39:30 IDT" name="loadPropertiesFiles" finished-at="2021-04-21T01:39:30 IDT" duration-ms="10" status="PASS">
+        <test-method is-config="true" signature="loadPropertiesFiles()[pri:0, instance:com.whatslly.rest.api.testing_project.PositiveStatusCodeTests@2667f029]" started-at="2021-04-21T12:28:10 IDT" name="loadPropertiesFiles" finished-at="2021-04-21T12:28:10 IDT" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadPropertiesFiles -->
-        <test-method signature="testAllEndpointsRespond(java.lang.String)[pri:0, instance:com.whatslly.rest.api.testing_project.PositiveStatusCodeTests@10e41621]" started-at="2021-04-21T01:39:30 IDT" name="testAllEndpointsRespond" data-provider="create" finished-at="2021-04-21T01:39:37 IDT" duration-ms="7303" status="PASS">
+        <test-method signature="testAllEndpointsRespond(java.lang.String)[pri:0, instance:com.whatslly.rest.api.testing_project.PositiveStatusCodeTests@2667f029]" started-at="2021-04-21T12:28:10 IDT" name="testAllEndpointsRespond" data-provider="allValidEndpoints" finished-at="2021-04-21T12:28:14 IDT" duration-ms="3678" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,7 +57,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAllEndpointsRespond -->
-        <test-method signature="testAllEndpointsRespond(java.lang.String)[pri:0, instance:com.whatslly.rest.api.testing_project.PositiveStatusCodeTests@10e41621]" started-at="2021-04-21T01:39:37 IDT" name="testAllEndpointsRespond" data-provider="create" finished-at="2021-04-21T01:39:38 IDT" duration-ms="992" status="PASS">
+        <test-method signature="testAllEndpointsRespond(java.lang.String)[pri:0, instance:com.whatslly.rest.api.testing_project.PositiveStatusCodeTests@2667f029]" started-at="2021-04-21T12:28:14 IDT" name="testAllEndpointsRespond" data-provider="allValidEndpoints" finished-at="2021-04-21T12:28:15 IDT" duration-ms="1118" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,7 +68,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAllEndpointsRespond -->
-        <test-method signature="testAllEndpointsRespond(java.lang.String)[pri:0, instance:com.whatslly.rest.api.testing_project.PositiveStatusCodeTests@10e41621]" started-at="2021-04-21T01:39:38 IDT" name="testAllEndpointsRespond" data-provider="create" finished-at="2021-04-21T01:39:40 IDT" duration-ms="1647" status="PASS">
+        <test-method signature="testAllEndpointsRespond(java.lang.String)[pri:0, instance:com.whatslly.rest.api.testing_project.PositiveStatusCodeTests@2667f029]" started-at="2021-04-21T12:28:15 IDT" name="testAllEndpointsRespond" data-provider="allValidEndpoints" finished-at="2021-04-21T12:28:17 IDT" duration-ms="2276" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -46,7 +81,7 @@
         </test-method> <!-- testAllEndpointsRespond -->
       </class> <!-- com.whatslly.rest.api.testing_project.PositiveStatusCodeTests -->
       <class name="com.whatslly.rest.api.testing_project.AllEndpointsOutputTheSameValues">
-        <test-method is-config="true" signature="initilaizeResponse(java.lang.String)[pri:0, instance:com.whatslly.rest.api.testing_project.AllEndpointsOutputTheSameValues@21de60b4]" started-at="2021-04-21T01:39:40 IDT" name="initilaizeResponse" finished-at="2021-04-21T01:39:43 IDT" duration-ms="2680" status="PASS">
+        <test-method is-config="true" signature="initilaizeResponse(java.lang.String)[pri:0, instance:com.whatslly.rest.api.testing_project.AllEndpointsOutputTheSameValues@30ee2816]" started-at="2021-04-21T12:28:17 IDT" name="initilaizeResponse" finished-at="2021-04-21T12:28:20 IDT" duration-ms="2279" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -57,7 +92,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilaizeResponse -->
-        <test-method signature="ValidateTheSameValuesInAllEndpoints(java.lang.String)[pri:0, instance:com.whatslly.rest.api.testing_project.AllEndpointsOutputTheSameValues@21de60b4]" started-at="2021-04-21T01:39:43 IDT" name="ValidateTheSameValuesInAllEndpoints" data-provider="create" finished-at="2021-04-21T01:39:44 IDT" duration-ms="1263" status="PASS">
+        <test-method signature="ValidateTheSameValuesInAllEndpoints(java.lang.String)[pri:0, instance:com.whatslly.rest.api.testing_project.AllEndpointsOutputTheSameValues@30ee2816]" started-at="2021-04-21T12:28:20 IDT" name="ValidateTheSameValuesInAllEndpoints" data-provider="allValidEndpoints" finished-at="2021-04-21T12:28:21 IDT" duration-ms="1148" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -68,7 +103,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateTheSameValuesInAllEndpoints -->
-        <test-method signature="ValidateTheSameValuesInAllEndpoints(java.lang.String)[pri:0, instance:com.whatslly.rest.api.testing_project.AllEndpointsOutputTheSameValues@21de60b4]" started-at="2021-04-21T01:39:44 IDT" name="ValidateTheSameValuesInAllEndpoints" data-provider="create" finished-at="2021-04-21T01:39:45 IDT" duration-ms="838" status="PASS">
+        <test-method signature="ValidateTheSameValuesInAllEndpoints(java.lang.String)[pri:0, instance:com.whatslly.rest.api.testing_project.AllEndpointsOutputTheSameValues@30ee2816]" started-at="2021-04-21T12:28:21 IDT" name="ValidateTheSameValuesInAllEndpoints" data-provider="allValidEndpoints" finished-at="2021-04-21T12:28:21 IDT" duration-ms="713" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -79,7 +114,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateTheSameValuesInAllEndpoints -->
-        <test-method signature="ValidateTheSameValuesInAllEndpoints(java.lang.String)[pri:0, instance:com.whatslly.rest.api.testing_project.AllEndpointsOutputTheSameValues@21de60b4]" started-at="2021-04-21T01:39:45 IDT" name="ValidateTheSameValuesInAllEndpoints" data-provider="create" finished-at="2021-04-21T01:39:47 IDT" duration-ms="2308" status="PASS">
+        <test-method signature="ValidateTheSameValuesInAllEndpoints(java.lang.String)[pri:0, instance:com.whatslly.rest.api.testing_project.AllEndpointsOutputTheSameValues@30ee2816]" started-at="2021-04-21T12:28:21 IDT" name="ValidateTheSameValuesInAllEndpoints" data-provider="allValidEndpoints" finished-at="2021-04-21T12:28:23 IDT" duration-ms="1616" status="PASS">
           <params>
             <param index="0">
               <value>

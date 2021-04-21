@@ -6,6 +6,7 @@
     	<classes>
       		<class name="com.whatslly.rest.api.testing_project.PositiveStatusCodeTests"/>	
       		<class name="com.whatslly.rest.api.testing_project.AllEndpointsOutputTheSameValues"/>
+      		<class name="com.whatslly.rest.api.testing_project.NegativeTestWrongEndpoint"/>
     	</classes>
   	</test> <!-- Test -->
 </suite> <!-- Suite -->

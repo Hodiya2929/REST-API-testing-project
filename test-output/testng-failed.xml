@@ -4,12 +4,11 @@
   <test thread-count="5" name="StatusCode(failed)">
     <parameter name="endpoint" value="us1"/>
     <classes>
-      <class name="com.whatslly.rest.api.testing_project.AllEndpointsOutputTheSameValues">
+      <class name="com.whatslly.rest.api.testing_project.NegativeTestWrongEndpoint">
         <methods>
-          <include name="ValidateTheSameValuesInAllEndpoints" invocation-numbers="0 1 2"/>
-          <include name="initilaizeResponse"/>
+          <include name="verifyWrongEndpointStatusCode" invocation-numbers="0 1 2"/>
         </methods>
-      </class> <!-- com.whatslly.rest.api.testing_project.AllEndpointsOutputTheSameValues -->
+      </class> <!-- com.whatslly.rest.api.testing_project.NegativeTestWrongEndpoint -->
     </classes>
   </test> <!-- StatusCode(failed) -->
 </suite> <!-- Failed suite [Suite] -->
